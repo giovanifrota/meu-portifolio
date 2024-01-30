@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(img/background.jpg);
+}
+
+main {
+    height: 400px;
+}
+
+.menu {
+    list-style: none;
+    text-align: right;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu li a {
+    margin-right: 10px;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    color: #F2E3D5;
+    margin-top: 5px;
+}
+
+.menu li a:hover {
+    color: #012E40;
+    transition: 1s;
+}
+
+p{
+    padding:10px;
+    color:white;
+}
+
+span {
+    color: #012E40;
+}
+
+h1 {
+    color: white;
+    font-size: 4rem;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+h2 {
+    color: white;
+    font-size: 2rem;
+    margin-left: 20px;
+}
+
+.p-main {
+    margin-top: 30px;
+    margin-left: 20px;
+    color: white;
+}
+
+.button-main {
+    padding: 20px;
+    background-color: #012E40;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 60px;
+    color: white;
+    display: block;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button-main:hover {
+    padding: 15px;
+    transition: 0.5s;
+}
+
+
+.sobre-section {
+    background-color: #2a2a2a;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+    padding: 110px 3% 60px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.minha-foto {
+    height: 630px;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-left: 40px;
+    box-shadow: #012E40 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+h3 {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.p-sobre {
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.midia-social {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 5em;
+}
+
+.linkedin {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin: 5px;
+}
+
+
+.github {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #012E40;
+    margin: 5px;
+}
+
+.whatsapp {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #012E40;
+    margin: 5px;
+}
+
+.img-social {
+    height: 55px;
+}
+
+.servicos {
+    background-color: #202020;
+    margin-top: 0;
+    height: 700px;
+}
+
+.main-text {
+    text-align: center;
+}
+
+.texto-skills {
+    text-align: center;
+}
+.servicos-container { 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 5rem;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 300px;
+    max-height: 300px;
+    min-height: 200px;
+    text-align: center;
+    background: #3d3d3d;
+    padding: 35px 45px;
+    border-radius: 8px;
+    transition: all .45s ease;
+ }
+ .box h3{
+    font-size: 22px;
+    font-weight: 600;
+ }
+ .box img{
+    height: 100px;
+ }
+ .portifolio{
+    background-color: #3d3d3d;
+    margin-top: 0;
+    padding:10px;
+ }
+ .portifolio-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 5rem;
+ }
+ .row img{
+    max-width: 350px;
+    min-width: 100%;
+    min-height: 375px;
+    max-height: 375px;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+ }
+ .experiencia{
+    background-color:#202020;
+ }
+ .main-text {
+    text-align: center;
+ }
+ .timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 0;
+ }
+ .container img{
+    background-color: var(--second-color);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    top: 32px;
+    margin: 2rem;
+ }
+ .text-box {
+    padding: 20px 20px;
+    background: #2a2a2a;
+    border-radius: 10px;
+    color: #fff;
+    width: 60vw;
+ }
+.text-box small { 
+    font-size: 14px;
+    font-weight: 800;
+}
+.text-box h5 { 
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px
+}
