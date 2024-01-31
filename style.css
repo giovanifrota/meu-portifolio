@@ -290,3 +290,14 @@ h3 {
         width: 55vw;
     }
 }
+@media (max-width: 667px){
+    .menu li a{
+        padding:15px;
+    }
+    .minha-foto{
+        height:365px;
+    }
+    .text-box{
+        width:50vw;
+    }
+}
